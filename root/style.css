@@ -1,0 +1,135 @@
+body {
+	background-color: #e8710a;	
+	background-image: url("DUNA.png");
+  background-repeat: no-repeat;
+
+
+	}
+div {
+  font-family: Century Gothic;
+	font-size: 40px;
+	color: #DCDCDC;
+  text-align: center;
+}
+p    {
+  font-family: arial;
+    font-size: 20px;
+    color: #DCDCDC;
+}
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  color: #DCDCDC;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: #363636;
+}
+h2{ font-family: arial;
+    color: #DCDCDC; }
+h3{
+  font-family: arial;
+    color: #DCDCDC;
+}
+
+.titulo {
+  width: 500px;
+  height: 500px;
+  left: 800px;
+  top: 460px;
+
+  position: relative;
+}
+
+.image {
+  text-align: left;
+  left: 50px;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  top: 300px;
+  position: absolute;
+  z-index: 1;
+}
+
+.info{
+  left: 300px;
+  z-index: 3;
+  top: 20px;
+  position: relative;
+}
+
+.sinopse{
+  left: 300px;
+  z-index: 3;
+  top: 20px;
+  position: relative;
+}
+
+.link{
+  left: 800px;
+  z-index: 4;
+  top: 20px;
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-color: ;
+
+}
+.textinho{
+  left: 50px;
+  z-index: 4;
+  top: 1030px;
+  position: absolute;
+}
+
+.tabela{
+  text-align: center;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a: hover: not (active) {
+  background-color: #111;
+}
+
+}
+li{
+  float: left;
+}
+
+.active{
+  background-color: #D2691E;
+}
+#menu{
+  font-family: arial;
+  list-style-type: none;
+  display: block;
+  background-color: #333;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#clique{
+  font-family: arial;
+  font-size: 30px;
+}
+
+#curiosidades{ font-family: arial;
+    color: #DCDCDC; }
+
+
+#sinoopse{ font-size: 25px; }
+
